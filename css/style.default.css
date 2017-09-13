@@ -64,17 +64,10 @@ section.background-gray-lightest {
 .img-responsive {
   margin: 0 auto;
 }
-.bkgr-img{
-  background-image: url('../img/portfolio/Scriptloop.png');
-  background-size: contain;
-}
 .no-space .box {
   margin: 0 -15px;
 }
 .port-info {
-  /*border-left: 1px solid rgba(0, 0, 0, .15);
-  border-right: 1px solid rgba(0, 0, 0, .15);
-  border-bottom: 1px solid rgba(0, 0, 0, .15);*/
   margin: 0 -15px;
   text-align: center;
   font-weight:normal;
@@ -316,17 +309,17 @@ CUSTOMERS
 =====================
 
 */
-.customer {
+.languages {
   text-align: center;
 }
-.customer img {
+.languages img {
   display: inline-block;
   margin-top: 10px;
   margin-bottom: 10px;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
-.customer img:hover {
+.languages img:hover {
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
 }
