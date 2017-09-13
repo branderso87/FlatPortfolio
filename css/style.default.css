@@ -909,16 +909,16 @@ hr {
   border-radius: 0;
 }
 .btn-primary {
-  color: #2b90d9;
-  background-color: #ffffff;
-  border-color: #2b90d9;
+  color: #ffffff;
+  background-color: #ffcc00;
+  border-color: #ffcc00;
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-  color: #2b90d9;
+  color: #ffcc00;
   background-color: #ebebeb;
   border-color: #1e6fa9;
 }
@@ -942,20 +942,20 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #ffffff;
-  border-color: #2b90d9;
+  background-color: #ffcc00;
+  border-color: #ffffff;
 }
 .btn-primary .badge {
   color: #ffffff;
-  background-color: #2b90d9;
+  background-color: #ffcc00;
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active {
-  background: #2b90d9;
+  background: #ffcc00;
   color: #ffffff;
-  border: solid 1px #2b90d9;
+  border: solid 1px #ffcc00;
 }
 .btn-transparent {
   color: #555555;
@@ -1002,7 +1002,7 @@ fieldset[disabled] .btn-transparent.active {
 .btn-transparent:focus,
 .btn-transparent:active,
 .btn-transparent.active {
-  background: #2b90d9;
+  background: #ffcc00;
   color: #ffffff;
 }
 .btn-lg {
@@ -1392,13 +1392,13 @@ p.social a i {
   vertical-align: bottom;
   line-height: 40px;
 }
-p.social a.facebook {
-  background-color: #4460ae;
-  border-color: #4460ae;
+p.social a.linkedin {
+  background-color: #0077B5;
+  border-color: #0077B5;
 }
-p.social a.gplus {
-  background-color: #c21f25;
-  border-color: #c21f25;
+p.social a.github {
+  background-color: #000000;
+  border-color: #000000;
 }
 p.social a.twitter {
   background-color: #3cf;
@@ -1419,13 +1419,13 @@ p.social a.link {
 p.social.social--outline a {
   background: transparent;
 }
-p.social.social--outline a.facebook {
+p.social.social--outline a.linkedin {
   color: #4460ae;
   border-color: #4460ae;
 }
-p.social.social--outline a.gplus {
-  color: #c21f25;
-  border-color: #c21f25;
+p.social.social--outline a.github {
+  color: #000000;
+  border-color: #000000;
 }
 p.social.social--outline a.twitter {
   color: #3cf;
