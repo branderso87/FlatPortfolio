@@ -64,8 +64,21 @@ section.background-gray-lightest {
 .img-responsive {
   margin: 0 auto;
 }
+.bkgr-img{
+  background-image: url('../img/portfolio/Scriptloop.png');
+  background-size: contain;
+}
 .no-space .box {
   margin: 0 -15px;
+}
+.port-info {
+  /*border-left: 1px solid rgba(0, 0, 0, .15);
+  border-right: 1px solid rgba(0, 0, 0, .15);
+  border-bottom: 1px solid rgba(0, 0, 0, .15);*/
+  margin: 0 -15px;
+  text-align: center;
+  font-weight:normal;
+  padding: 2% 2% 5% 2%;
 }
 .margin-top {
   margin-top: 30px;
